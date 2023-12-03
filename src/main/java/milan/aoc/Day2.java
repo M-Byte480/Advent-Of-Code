@@ -1,13 +1,59 @@
 package milan.aoc;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 
-public class Game {
+public class Day2 {
+  static BufferedReader reader;
+  static ArrayList<StringBuilder> lines = new ArrayList<>();
+  ArrayList<Game> games = new ArrayList<>();
+
+  static {
+    try {
+      reader = new BufferedReader(new FileReader("src/main/resources/2023/Day_2.txt"));
+      String ln = reader.readLine();
+      while( ln != null ){
+        lines.add(new StringBuilder(ln));
+        ln = reader.readLine();
+      }
+    } catch (IOException e) {
+      throw new RuntimeException(e);
+    }
+  }
+  public static void main(String[] args) {
+    Day2 main = new Day2();
+    lines.forEach(l -> main.games.add(new Game(l)));
+    int result = 0;
+    for (Game game : main.games) {
+      result += game.maxGreen * game.maxRed * game.maxBlue;
+    }
+
+    System.out.println(result);
+  }
+}
+class Round {
+
+  HashMap<COLOURS, Integer> contents = new HashMap<>();
+
+  public Round() {
+    contents.put(COLOURS.GREEN, 0);
+    contents.put(COLOURS.RED, 0);
+    contents.put(COLOURS.BLUE, 0);
+  }
+
+  @Override
+  public String toString() {
+    return "red: " + contents.get(COLOURS.RED) + ", " +
+        "blue: " + contents.get(COLOURS.BLUE) + ", " +
+        "green: " + contents.get(COLOURS.GREEN);
+  }
+}
+
+class Game {
 
   int id;
   ArrayList<Round> rounds = new ArrayList<Round>();
@@ -71,4 +117,10 @@ public class Game {
   public String toString(){
     return "Game: " + id + " - " + rounds.toString();
   }
+}
+
+enum COLOURS {
+  RED,
+  GREEN,
+  BLUE
 }

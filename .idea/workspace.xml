@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="905ba8a1-4131-468b-843f-034bd930f92d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/milan/aoc/COLOURS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/milan/aoc/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/milan/aoc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/milan/aoc/Round.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/2023/Day_2.txt" afterDir="false" />
-    </list>
+    <list default="true" id="905ba8a1-4131-468b-843f-034bd930f92d" name="Changes" comment="Created repo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,11 +75,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701561882516</updated>
-      <workItem from="1701561883681" duration="4223000" />
+      <workItem from="1701561883681" duration="4750000" />
     </task>
+    <task id="LOCAL-00001" summary="Created repo">
+      <option name="closed" value="true" />
+      <created>1701566473392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701566473392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created repo" />
   </component>
 </project>
