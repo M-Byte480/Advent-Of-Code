@@ -103,7 +103,8 @@ class Card {
   ArrayList<Integer> winningNumbers = new ArrayList<>();
   ArrayList<Integer> numbers = new ArrayList<>();
 
-  Card() { }
+  Card() {
+  }
 
   public void sort() {
     Collections.sort(winningNumbers);
@@ -134,11 +135,7 @@ class Card {
     for (Integer winningNumber : winningNumbers) {
       int index = binarySearch(numbers, winningNumber);
       if (index != -1) {
-        if (point == 0) {
-          point = 1;
-        } else {
-          point++;
-        }
+        point++;
       }
     }
     return point;
