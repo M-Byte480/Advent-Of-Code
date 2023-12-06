@@ -171,9 +171,9 @@ class FileParser {
   static BufferedReader reader;
   static ArrayList<StringBuilder> lines = new ArrayList<>();
 
-  static {
+  static ArrayList<StringBuilder> readLines(String file){
     try {
-      reader = new BufferedReader(new FileReader("src/main/resources/2023/Day_4.txt"));
+      reader = new BufferedReader(new FileReader("src/main/resources/2023/" + file));
       String ln = reader.readLine();
       while (ln != null) {
         lines.add(new StringBuilder(ln));
@@ -182,5 +182,7 @@ class FileParser {
     } catch (IOException e) {
       throw new RuntimeException(e);
     }
+
+    return lines;
   }
 }
