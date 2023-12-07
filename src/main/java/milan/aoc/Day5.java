@@ -1,5 +1,7 @@
 package milan.aoc;
 
+import static milan.aoc.Day5.FileParser.seeds;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -12,8 +14,11 @@ import java.util.HashMap;
 public class Day5 {
 
   public static void main(String[] args) {
-    FileParser.dataSet.get(SeedToSoil.class);
+    Mapper mapper = new Mapper();
+    mapper.Part1();
   }
+
+
 
   class FileParser {
 
@@ -51,10 +56,10 @@ public class Day5 {
             seeds.addAll(stringSeeds.stream().map(j -> Long.parseLong(j.toString())).toList());
           }
 
-          if(lines.get(i).toString().isEmpty()) {
+          if(!lines.get(i).toString().isEmpty() && Character.isDigit(lines.get(i).toString().charAt(0))) {
             i += 2;
             ArrayList<ThreeLongs> data = new ArrayList<>();
-            for (; i < lines.size() && !lines.get(i).toString().isEmpty(); i++) {
+            while( i < lines.size() && !lines.get(i).toString().isEmpty()) {
               String[] line = lines.get(i).toString().split(" ");
 
 
@@ -64,6 +69,7 @@ public class Day5 {
               seed.range = Long.parseLong(line[2]);
 
               data.add(seed);
+              i++;
             }
             dataSet.put(classes[classPointer], data);
             classPointer++;
@@ -77,6 +83,29 @@ public class Day5 {
   }
 }
 
+
+class Mapper{
+  static HashMap<Class<?>, ArrayList<ThreeLongs>> dataSet = Day5.FileParser.dataSet;
+
+  Mapper(){
+
+  }
+
+  public void Part1(){
+    ArrayList<ThreeLongs> seedToSoil = dataSet.get(SeedToSoil.class);
+    seedToSoil.sort(ThreeLongs::compareTo);
+    for (long seed : seeds) {
+      for (ThreeLongs toSoil : seedToSoil) {
+        if(toSoil.source <= seed && seed <= toSoil.upperSource()){
+
+        }
+      }
+
+    }
+  }
+
+}
+
 class SeedToSoil extends ThreeLongs{}
 class SoilToFertilizer extends ThreeLongs{}
 class FertilizerToWater extends ThreeLongs{}
@@ -85,8 +114,34 @@ class LightToTemperature extends ThreeLongs{}
 class TemperatureToHumidity extends ThreeLongs{}
 class HumidityToLocation extends ThreeLongs{}
 
-abstract class ThreeLongs{
+class ThreeLongs implements Comparable{
   long destination;
   long source;
   long range;
+
+  public long upperDest(){
+    return destination + range - 1;
+  }
+
+  public long upperSource(){
+    return source + range - 1;
+  }
+
+  @Override
+  public int compareTo(Object that){
+    int ret = 0;
+    if( that instanceof ThreeLongs ){
+      if(this.destination < ((ThreeLongs) that).destination) {
+        ret = -1;
+      }else{
+        ret = 1;
+      }
+    }
+    return ret;
+  }
+
+  @Override
+  public String toString(){
+    return "" + destination + " " + source + " " + range;
+  }
 }
