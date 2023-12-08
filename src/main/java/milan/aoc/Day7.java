@@ -157,8 +157,7 @@ class Poker implements Comparator<Poker> {
         case HighCard -> this.strength = Strength.OnePair;
         case OnePair -> this.strength = Strength.ThreeOfAKind;
         case TwoPair -> this.strength = Strength.FullHouse;
-        case ThreeOfAKind -> this.strength = Strength.FourOfAKind;
-        case FullHouse -> this.strength = Strength.FourOfAKind;
+        case ThreeOfAKind, FullHouse -> this.strength = Strength.FourOfAKind;
         case FourOfAKind -> this.strength = Strength.FiveOfAKind;
         case FiveOfAKind -> {}
       }
