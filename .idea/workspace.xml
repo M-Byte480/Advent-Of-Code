@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="905ba8a1-4131-468b-843f-034bd930f92d" name="Changes" comment="Experimenting for Day 5">
+    <list default="true" id="905ba8a1-4131-468b-843f-034bd930f92d" name="Changes" comment="Solved Day9, got first part of Day8">
+      <change afterPath="$PROJECT_DIR$/AoC_2023/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/milan/aoc/Day4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day4.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day5.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day6.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day7.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day8.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day9.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_9.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +41,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -34,61 +55,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kmila/IdeaProjects/aoc/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kmila/IdeaProjects/aoc/src/main/java/milan/aoc/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/kmila/IdeaProjects/aoc/AoC_2022/java/Day15-Beacon_Exclusion_Zone",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/kmila/IdeaProjects/aoc/AoC_2022/src/main/java/milan/aoc/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kmila\IdeaProjects\aoc" />
       <recent name="C:\Users\kmila\IdeaProjects\aoc\src\main\resources" />
       <recent name="C:\Users\kmila\IdeaProjects\aoc\src\main\java\milan\aoc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kmila\IdeaProjects\aoc\AoC_2022\java" />
+      <recent name="C:\Users\kmila\IdeaProjects\aoc\AoC_2021\Python" />
+      <recent name="C:\Users\kmila\IdeaProjects\aoc\AoC_2022" />
       <recent name="C:\Users\kmila\IdeaProjects\aoc\src\main\resources\2023" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day6">
-    <configuration name="Day3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="milan.aoc.Day3" />
-      <module name="aoc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="milan.aoc.Game" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="milan.aoc.Day4" />
-      <module name="aoc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="milan.aoc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day9 (1)">
     <configuration name="Day5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="milan.aoc.Day5" />
       <module name="aoc" />
@@ -102,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="milan.aoc.Day6" />
+    <configuration name="Day7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="milan.aoc.Day7" />
       <module name="aoc" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +116,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="milan.aoc.Main" />
+    <configuration name="Day8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="milan.aoc.Day8" />
       <module name="aoc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="milan.aoc.Game" />
+          <option name="PATTERN" value="milan.aoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day9 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="milan.aoc.Day9" />
+      <module name="AoC_2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="milan.aoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="milan.aoc.Day9" />
+      <module name="aoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="milan.aoc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day6" />
+        <item itemvalue="Application.Day9 (1)" />
+        <item itemvalue="Application.Day9" />
+        <item itemvalue="Application.Day8" />
+        <item itemvalue="Application.Day7" />
         <item itemvalue="Application.Day5" />
-        <item itemvalue="Application.Day4" />
-        <item itemvalue="Application.Day3" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +181,12 @@
       <workItem from="1701728378132" duration="4004000" />
       <workItem from="1701805819655" duration="5349000" />
       <workItem from="1701882247246" duration="4249000" />
+      <workItem from="1701902025487" duration="2997000" />
+      <workItem from="1701968093977" duration="5101000" />
+      <workItem from="1702025558937" duration="6831000" />
+      <workItem from="1702150164540" duration="960000" />
+      <workItem from="1702166414707" duration="5044000" />
+      <workItem from="1702171788968" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="Created repo">
       <option name="closed" value="true" />
@@ -187,7 +220,39 @@
       <option name="project" value="LOCAL" />
       <updated>1701821228539</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 6 solved">
+      <option name="closed" value="true" />
+      <created>1701902348930</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701902348930</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Day 7 Solved">
+      <option name="closed" value="true" />
+      <created>1701973124634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701973124634</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated Day7">
+      <option name="closed" value="true" />
+      <created>1702025656021</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702025656021</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Solved Day9, got first part of Day8">
+      <option name="closed" value="true" />
+      <created>1702171448415</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702171448416</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,17 +263,31 @@
     <MESSAGE value="Moved all the classes to a single file" />
     <MESSAGE value="Beautiful solution for Day4" />
     <MESSAGE value="Experimenting for Day 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Experimenting for Day 5" />
+    <MESSAGE value="Day 6 solved" />
+    <MESSAGE value="Day 7 Solved" />
+    <MESSAGE value="Updated Day7" />
+    <MESSAGE value="Solved Day9, got first part of Day8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved Day9, got first part of Day8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/milan/aoc/Day6.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/AoC_2021/src/main/java/milan/aoc/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="milan.aoc.Day9" memberName="sequences" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="listOfLongs.get(9)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
