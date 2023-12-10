@@ -4,27 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="905ba8a1-4131-468b-843f-034bd930f92d" name="Changes" comment="Solved Day9, got first part of Day8">
-      <change afterPath="$PROJECT_DIR$/AoC_2023/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day4.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day5.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day6.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day7.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day8.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/milan/aoc/Day9.java" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/java/milan/aoc/Day9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/2023/Day_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2023/src/main/resources/2023/Day_9.txt" afterDir="false" />
+    <list default="true" id="905ba8a1-4131-468b-843f-034bd930f92d" name="Changes" comment="Added other repos to this repo">
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day01/AdventOfCodeDay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day01/AdventOfCodeDay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day01/CodeOfAdventDay1Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day01/CodeOfAdventDay1Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day01/CodeOfAdventDay1Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day01/CodeOfAdventDay1Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day02/AdventOfCodeDay2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day02/AdventOfCodeDay2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day02/CodeOfAdventDay2Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day02/CodeOfAdventDay2Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day02/CodeOfAdventDay2Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day02/CodeOfAdventDay2Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day03/AdventOfCodeDay3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day03/AdventOfCodeDay3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day03/CodeOfAdventDay3Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day03/CodeOfAdventDay3Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day03/CodeOfAdventDay3Prob2V2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day03/CodeOfAdventDay3Prob2V2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day04/AdventOfCodeDay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day04/AdventOfCodeDay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day04/CodeOfAdventDay4Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day04/CodeOfAdventDay4Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day04/CodeOfAdventDay4Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day04/CodeOfAdventDay4Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day05/AdventOfCodeDay5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day05/AdventOfCodeDay5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day05/CodeOfAdventDay5Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day05/CodeOfAdventDay5Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day05/CodeOfAdventDay5Prob1v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day05/CodeOfAdventDay5Prob1v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day05/CodeOfAdventDay5Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day05/CodeOfAdventDay5Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day05/CodeOfAdventDay5Prob2V3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day05/CodeOfAdventDay5Prob2V3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day05/CodeOfAdventDay5Prob2V4.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day05/CodeOfAdventDay5Prob2V4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day05/CodeOfAdventDay5Prob2v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day05/CodeOfAdventDay5Prob2v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day06/AdventOfCodeDay6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day06/AdventOfCodeDay6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day06/CodeOfAdventDay6Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day06/CodeOfAdventDay6Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day06/CodeOfAdventDay6Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day06/CodeOfAdventDay6Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day07/AdventOfCodeDay7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day07/AdventOfCodeDay7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day07/CodeOfAdventDay7Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day07/CodeOfAdventDay7Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day07/CodeOfAdventDay7Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day07/CodeOfAdventDay7Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day08/AdventOfCodeDay8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day08/AdventOfCodeDay8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day08/CodeOfAdventDay8Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day08/CodeOfAdventDay8Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day08/CodeOfAdventDay8Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day08/CodeOfAdventDay8Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day08/CodeOfAdventDay8Prob2v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day08/CodeOfAdventDay8Prob2v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day09/AdventOfCodeDay9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day09/AdventOfCodeDay9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day09/CodeOfAdventDay9Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day09/CodeOfAdventDay9Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day09/CodeOfAdventDay9Prob1LocalScake.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day09/CodeOfAdventDay9Prob1LocalScake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day09/CodeOfAdventDay9Prob1SecondAttempt.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day09/CodeOfAdventDay9Prob1SecondAttempt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day09/CodeOfAdventDay9Problem2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day09/CodeOfAdventDay9Problem2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day10/AdventOfCodeDay10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day10/AdventOfCodeDay10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day10/CodeOfAdventDay10Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day10/CodeOfAdventDay10Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day10/CodeOfAdventDay10Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day10/CodeOfAdventDay10Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day11/AdventOfCodeDay11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day11/AdventOfCodeDay11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day11/CodeOfAdventDay11Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day11/CodeOfAdventDay11Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day11/CodeOfAdventDay11Prob1V1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day11/CodeOfAdventDay11Prob1V1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day11/CodeOfAdventDay11Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day11/CodeOfAdventDay11Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day13/AdventOfCodeDay13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day13/AdventOfCodeDay13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day13/CodeOfAdventDay13Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day13/CodeOfAdventDay13Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day13/CodeOfAdventDay13Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day13/CodeOfAdventDay13Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day14/AdventOfCodeDay14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day14/AdventOfCodeDay14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day14/AdventOfCodeDay14Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day14/AdventOfCodeDay14Prob1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day14/AdventOfCodeDay14Prob2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day14/AdventOfCodeDay14Prob2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day14/AdventOfCodeDay14Prob2v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day14/AdventOfCodeDay14Prob2v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day14/Experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day14/Experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day15/AdventOfCodeDay15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day15/AdventOfCodeDay15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoC_2021/Python/Day15/AdventOfCodeDay15Prob1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AoC_2021/python/Day15/AdventOfCodeDay15Prob1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +217,7 @@
       <workItem from="1702025558937" duration="6831000" />
       <workItem from="1702150164540" duration="960000" />
       <workItem from="1702166414707" duration="5044000" />
-      <workItem from="1702171788968" duration="801000" />
+      <workItem from="1702171788968" duration="1842000" />
     </task>
     <task id="LOCAL-00001" summary="Created repo">
       <option name="closed" value="true" />
@@ -252,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702171448416</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added other repos to this repo">
+      <option name="closed" value="true" />
+      <created>1702173591780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702173591781</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +306,8 @@
     <MESSAGE value="Day 7 Solved" />
     <MESSAGE value="Updated Day7" />
     <MESSAGE value="Solved Day9, got first part of Day8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved Day9, got first part of Day8" />
+    <MESSAGE value="Added other repos to this repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added other repos to this repo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
