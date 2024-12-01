@@ -37,3 +37,12 @@ build/
 ### Mac OS ###
 .DS_Store
 .xml
+
+/AoC_2024/resource
+.idea
+.suo
+.wsuo
+FileContentIndex
+out
+*.json
+.vs
