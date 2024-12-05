@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import static java.lang.System.exit;
 
@@ -58,69 +59,47 @@ public class day02 extends AbstractAoc {
         int safeLines = 0;
 
         for(ArrayList<Integer> numbers : this.input){
-            Classification classification = classify(numbers);
-            if(isSafeWithTolerance(classification, numbers)) {
+
+            // Test for safe without omitting
+            if(isValid(numbers)){
                 safeLines++;
+                continue;
+            }
+
+            for (int i = 0; i < numbers.size(); i++) {
+                ArrayList<Integer> omittedList = omit(numbers, i);
+                if(isValid(omittedList)){
+                    safeLines++;
+                    break;
+                }
             }
         }
-
         return safeLines + "";
     }
 
-    private boolean isSafeWithTolerance(Classification classification, ArrayList<Integer> numbers){
-        int p1 = 0;
-        int p2 = 1;
-        boolean tolerance = false;
-        while (p2 < numbers.size() && p1 < numbers.size()){
-            int first = numbers.get(p1);
-            int second = numbers.get(p2);
+    private boolean isValid(ArrayList<Integer> numbers){
+        if(isIncreasing(numbers)){
+            return isWithinRangeLoop(numbers);
+        } else if(isDecreasing(numbers)){
+            return isWithinRangeLoop(numbers);
+        }
 
+        return false;
+    }
 
-            if(classification == Classification.INCREASING){
-                if(first >= second && tolerance){
-                    return false;
-                } else if (first >= second){
-                    tolerance = true;
-                    if(first > second){
-                        numbers.remove(p2);
-                    } else {
-                        numbers.remove(p1);
-                    }                    p1--;
-                    p2--;
-                } else if(!isWithinRange(first, second) && tolerance){
-                    return false;
-                } else if(!isWithinRange(first, second)){
-                    tolerance = true;
-                    numbers.remove(p2);
-                    p1--;
-                    p2--;
-                }
-            } else if(classification == Classification.DECREASING){
-                if(first <= second && tolerance){
-                    return false;
-                } else if(first <= second){
-                    tolerance = true;
-                    if(first < second){
-                        numbers.remove(p2);
-                    } else {
-                        numbers.remove(p1);
-                    }
-                    p1--;
-                    p2--;
-                } else if(!isWithinRange(first, second) && tolerance){
-                    return false;
-                } else if(!isWithinRange(first, second)){
-                    tolerance = true;
-                    numbers.remove(p2);
-                    p1--;
-                    p2--;
-                }
+    private boolean isWithinRangeLoop(ArrayList<Integer> numbers){
+        for (int i = 0; i < numbers.size() - 1; i++) {
+            if(!isWithinRange(numbers.get(i), numbers.get(i + 1))){
+                return false;
             }
-
-            p1++;
-            p2++;
         }
         return true;
+    }
+
+    private ArrayList<Integer> omit(ArrayList<Integer> numbers, int index){
+        ArrayList<Integer> omittedList = new ArrayList<>(numbers);
+        omittedList.remove(index);
+        return omittedList;
     }
 
     private boolean isWithinRange(int first, int second){
@@ -150,6 +129,25 @@ public class day02 extends AbstractAoc {
         }
         return true;
     }
+
+    private boolean isDecreasing(ArrayList<Integer> numbers){
+        for (int i = 0; i < numbers.size() - 1; i++) {
+            if(numbers.get(i) < numbers.get(i + 1)){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private boolean isIncreasing(ArrayList<Integer> numbers){
+        for (int i = 0; i < numbers.size() - 1; i++) {
+            if(numbers.get(i) > numbers.get(i + 1)){
+                return false;
+            }
+        }
+        return true;
+    }
+
 
     private Classification classify(ArrayList<Integer> numbers){
         int first = numbers.get(0);
